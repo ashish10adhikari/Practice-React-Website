@@ -56,25 +56,25 @@ const Navbar = () => {
           <img onClick={()=> setShowMobileMenu(false)} src={assets.cross_icon} className="w-6" alt="" />
         </div>
         <ul className="flex flex-col items-center font-medium gap-2 mt-5 px-5 text-lg">
-          <a
+          <a onClick={()=> setShowMobileMenu(false)}
             href="#Header"
             className="px-4 py-2 rounded-full inline-block hover:bg-gray-100"
           >
             Home
           </a>
-          <a
+          <a onClick={()=> setShowMobileMenu(false)}
             href="#About"
             className="px-4 py-2 rounded-full inline-block hover:bg-gray-100"
           >
             About
           </a>
-          <a
+          <a onClick={()=> setShowMobileMenu(false)}
             href="#Projects"
             className="px-4 py-2 rounded-full inline-block hover:bg-gray-100"
           >
             Projects
           </a>
-          <a
+          <a onClick={()=> setShowMobileMenu(false)}
             href="#Testimonials"
             className="px-4 py-2 rounded-full inline-block hover:bg-gray-100"
           >
